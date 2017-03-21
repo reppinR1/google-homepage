@@ -1,0 +1,133 @@
+/*****************
+OVERALL
+*****************/
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+form input{
+    width: 100%;
+    height: 38px;
+    box-shadow: 0px 0px 2px 0px;
+}
+
+/*****************
+MIDDLE
+*****************/
+.main-img-wrapper {
+    position: relative;
+    width: 35%;
+    margin-top: 200px;
+    margin: 200px auto 0;
+}
+
+.country {
+    position: absolute;
+    color: dodgerblue;
+    right: -2px;
+    bottom: -19px;
+}
+
+.middle {
+    flex: 1;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.nav-top {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em 1.75em;
+}
+
+
+.nav-top a{
+    color: darkslategray;
+    text-decoration: none;
+    padding: 0.35em;
+}
+
+.nav-top a:hover {
+    text-decoration: underline;
+}
+
+
+.nav-bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 1em 2em;
+}
+
+.nav-bot-left {
+
+}
+
+.nav-bot-right {
+
+}
+
+
+/*****************
+LINKS
+*****************/
+a {
+    color: darkslategray;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-bot a {
+    padding: 0.35em;
+}
+
+.login {
+    background-color: #4285f4;
+    font-weight: bold;
+    font-size: 13.8px;
+}
+
+a.login {
+    color: #fff;
+    padding: 8px 13px;
+}
+
+.searchlink {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-size: 13.8px;
+    padding: 10px 18px;
+    margin: 2.5px;
+
+
+}
+
+.form-wrapper {
+    margin: 40px auto 0;
+    width: 80%;
+}
+
+.search-wrapper {
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    width: 100%;
+}
